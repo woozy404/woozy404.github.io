@@ -2,202 +2,191 @@
 @import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css");
 
 :root {
-  --background-primary: #19191d !important;
-  --background-secondary: #1c1c20 !important;
-  --background-secondary-alt: #19191d !important;
-  --background-tertiary: #131318 !important;
-  --background-accent: #151518 !important;
-  --channeltextarea-background: var(--background-accent) !important;
+    --background-primary: #19191d !important;
+    --background-secondary: #1c1c20 !important;
+    --background-secondary-alt: #19191d !important;
+    --background-tertiary: #131318 !important;
+    --background-accent: #151518 !important;
+    --channeltextarea-background: var(--background-accent) !important;
 }
 
 .wordmark-2iDDfm:after {
-  /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/761660524952944662 */
-  content: "Another Dark Theme";
-  font-size: 14px;
-  font-weight: 700;
-  text-wrap: none;
-  position: absolute;
-  top: 4.5px;
-  padding-right: 8px;
-  white-space: nowrap;
-  font-family: "Discord";
-  left: 4px;
-  z-index: 0;
+    /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/761660524952944662 */
+    content: "Another Dark Theme";
+    font-size: 14px;
+    font-weight: 700;
+    text-wrap: none;
+    position: absolute;
+    top: 4.5px;
+    padding-right: 8px;
+    white-space: nowrap;
+    font-family: "Discord";
+    left: 4px;
+    z-index: 0;
 }
-.wordmark-2iDDfm > svg {
-  width: 0px;
+
+.wordmark-2iDDfm>svg {
+    width: 0px;
 }
 
 div[id="message-actions"] {
-  /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/760171635189481532 */
-  min-width: 0px;
-  width: 57px;
-  transition: 1s;
-}
-div[id="message-actions"]:hover {
-  min-width: 0px;
-  width: 200px;
-  transition: 0.5s;
+    /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/760171635189481532 */
+    min-width: 0px;
+    width: 57px;
+    transition: 1s;
 }
 
-html:not(#\20) .powercord-spotify, /* Spotify Gardient From hellbounds server */    
+div[id="message-actions"]:hover {
+    min-width: 0px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+html:not(#\20) .powercord-spotify,
+/* Spotify Gardient From hellbounds server */
 html:not(#\20) #powercord-spotify-menu {
-  --gradient: linear-gradient(120deg, red, purple) !important;
+    --gradient: linear-gradient(120deg, red, purple) !important;
 }
 
 html:not(#\20) #powercord-spotify-menu .barFill-23-gu-,
 html:not(#\20) .powercord-spotify .spotify-seek-bar-progress,
 html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ.focused-3afm-j {
-  background-image: var(--gradient) !important;
+    background-image: var(--gradient) !important;
 }
 
 html:not(#\20) .powercord-spotify .spotify-buttons button .contents-18-Yxp .fas,
 html:not(#\20) .powercord-spotify .spotify-extra-controls .active,
-html:not(#\20)
-  #powercord-spotify-menu
-  .disabled-1WRMNA[id^="powercord-spotify-menu-devices--"],
-html:not(#\20)
-  #powercord-spotify-menu
-  #powercord-spotify-menu-repeat
-  + div
-  [id*="-active"] {
-  color: transparent !important;
-  background-image: var(--gradient) !important;
-  -webkit-background-clip: text !important;
-  padding-top: 0.2em !important;
-  margin-top: -0.2em !important;
+html:not(#\20) #powercord-spotify-menu .disabled-1WRMNA[id^="powercord-spotify-menu-devices--"],
+html:not(#\20) #powercord-spotify-menu #powercord-spotify-menu-repeat+div [id*="-active"] {
+    color: transparent !important;
+    background-image: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    padding-top: 0.2em !important;
+    margin-top: -0.2em !important;
 }
 
 html:not(#\20) .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
-  color: white !important;
+    color: white !important;
 }
 
 html:not(#\20) #powercord-spotify-menu .colorDefault-2K3EoJ .checkbox-3s5GYZ {
-  color: transparent !important;
+    color: transparent !important;
 }
 
-.userInfoViewing-16kqK3
-  .flex-1xMQg5
-  .flexChild-faoVW3
-  .marginBottom20-32qID7
-  + div
-  .selectable-2GY4I1 {
-  filter: blur(5px);
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7+div .selectable-2GY4I1 {
+    filter: blur(5px);
 }
 
-.userInfoViewing-16kqK3
-  .flex-1xMQg5
-  .flexChild-faoVW3
-  .marginBottom20-32qID7
-  + div
-  .selectable-2GY4I1:hover {
-  filter: blur(0px);
-  cursor: pointer;
+.userInfoViewing-16kqK3 .flex-1xMQg5 .flexChild-faoVW3 .marginBottom20-32qID7+div .selectable-2GY4I1:hover {
+    filter: blur(0px);
+    cursor: pointer;
 }
 
 .connectedAccount-36nQx7 {
-  background-color: var(--background-tertiary);
-  border: 0 !important;
+    background-color: var(--background-tertiary);
+    border: 0 !important;
 }
 
 .section-2gLsgF {
-  background-color: #1c1c20;
+    background-color: #1c1c20;
 }
 
 .auto-Ge5KZx {
-  background-color: #19191d;
+    background-color: #19191d;
 }
 
 .addInputWrapper-1BOZ3d {
-  background-color: #19191d;
+    background-color: #19191d;
 }
 
 .friendsEmpty-1K9B4k {
-  background-color: #19191d;
+    background-color: #19191d;
 }
 
 .theme-dark .body-3iLsc4,
 .theme-dark .footer-1fjuF6 {
-  background-color: #18181b;
+    background-color: #18181b;
 }
 
 .infoScroller-3EYYns {
-  background-color: #19191d !important;
+    background-color: #19191d !important;
 }
 
 .topSectionNormal-2-vo2m .profileBadgePremium-3kZ9Qj,
 .profileBadgePremium-3kZ9Qj {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 /* PROFILE COLORS */
 
 .topSectionPlaying-1J5E4n,
 .headerPlaying-j0WQBV {
-  background-color: #1464af !important;
+    background-color: #1464af !important;
 }
 
 .topSectionSpotify-1lI0-P,
 .headerSpotify-zpWxgT {
-  background-color: #43b581 !important; 
+    background-color: #147837 !important;
 }
 
 .topSectionNormal-2-vo2m,
 .headerNormal-T_seeN {
-  background-color: #521f7c !important;
+    background-color: #521f7c !important;
 }
 
 /* BUTTON COLORS */
 
 .topSectionNormal-2-vo2m .actionButton-3W1xZa {
-  background-color: #2d1046 !important;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(245, 245, 245, 0.253);
+    background-color: #2d1046 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(245, 245, 245, 0.253);
 }
 
 .topSectionSpotify-1lI0-P .lookInverted-2D7oAl.colorGreen-29iAKY {
-  color: #147837 !important;
-  border-width: 0px;
+    color: #43b581 !important;
+    border-width: 0px;
 }
 
 .topSectionPlaying-1J5E4n .lookInverted-2D7oAl.colorBrand-3pXr91 {
-  color: #7289da !important;
-  border-width: 0px;
+    color: #7289da !important;
+    border-width: 0px;
 }
 
 .topSectionNormal-2-vo2m .actionButton-3W1xZa:hover {
-  background-color: #371257 !important;
+    background-color: #371257 !important;
 }
 
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
-  border-top-color: rgba(255, 255, 255, 0.253);
+    border-top-color: rgba(255, 255, 255, 0.253);
 }
 
 @keyframes floating {
-  from {
-    transform: translate(0, 0px);
-  }
-  65% {
-    transform: translate(0, 2px);
-  }
-  to {
-    transform: translate(0, -0px);
-  }
+    from {
+        transform: translate(0, 0px);
+    }
+
+    65% {
+        transform: translate(0, 2px);
+    }
+
+    to {
+        transform: translate(0, -0px);
+    }
 }
 
 .autocompleteRowVertical-q1K4ky {
-  background-color: #1c1c20;
+    background-color: #1c1c20;
 }
 
 .autocompleteInner-zh20B_ {
-  background-color: #1c1c20;
+    background-color: #1c1c20;
 }
 
 .layout-2DM8Md:hover {
-  transition: all 0.2s ease;
-  transform: scale(1.05, 1.05);
+    transition: all 0.2s ease;
+    transform: scale(1.05, 1.05);
 }
