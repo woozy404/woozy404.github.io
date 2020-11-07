@@ -9,8 +9,6 @@
     --channeltextarea-background: var(--background-accent) !important;
 }
 
-
-
 div[id="message-actions"] {
     /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/760171635189481532 */
     min-width: 0px;
