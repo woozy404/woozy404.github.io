@@ -9,19 +9,6 @@
     --channeltextarea-background: var(--background-accent) !important;
 }
 
-.wordmark-2iDDfm:after {
-    /* Thanks to this message for this! https://canary.discordapp.com/channels/538759280057122817/755005803303403570/761660524952944662 */
-    font-size: 14px;
-    font-weight: 700;
-    text-wrap: none;
-    position: absolute;
-    top: 4.5px;
-    padding-right: 8px;
-    white-space: nowrap;
-    font-family: "Discord";
-    left: 4px;
-    z-index: 0;
-}
 
 .wordmark-2iDDfm>svg {
     width: 0px;
